@@ -1,27 +1,42 @@
 {
   "name": "grunt-uglify2",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "The best Grunt plugin ever.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/M1nified/grunt-uglify2",
+  "author": {
+    "name": "M1nified",
+    "email": "gora.pub@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/M1nified/grunt-uglify2.git"
+    "url": "https://github.com/M1nified/grunt-uglify2.git"
   },
-  "keywords": [
-    "uglify-js",
-    "grunt",
-    "es6",
-    "js"
-  ],
-  "author": "M1nified",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/M1nified/grunt-uglify2/issues"
   },
-  "homepage": "https://github.com/M1nified/grunt-uglify2#readme"
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/M1nified/grunt-uglify2/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 6.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "uglify-js": "^2.6.2"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "uglify-js": "^2.6.2"
+  }
 }
